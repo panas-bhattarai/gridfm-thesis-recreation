@@ -12,6 +12,12 @@ Companion position paper: *"Foundation Models for the Electric Power Grid"* (Ham
 > with or endorsed by ETH Zürich, IBM, or the authors, and the numbers here are NOT the
 > thesis's results.** Please read **[DISCLAIMER.md](DISCLAIMER.md)** before using or citing anything.
 
+**Successor studies building on this recreation:**
+[`feeder-reconfiguration-invariance`](https://github.com/panas-bhattarai/feeder-reconfiguration-invariance)
+(does the topology-transfer finding survive distribution-feeder reconfiguration?) and
+[`physics-consistent-feeder-generation`](https://github.com/panas-bhattarai/physics-consistent-feeder-generation)
+(from reconstructing grid states to generating them, with power-flow guarantees).
+
 ## What this project does
 
 The thesis pre-trains graph-based neural networks ("GridFM") on hundreds of thousands of
